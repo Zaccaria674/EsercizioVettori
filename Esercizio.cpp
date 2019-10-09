@@ -13,6 +13,10 @@ int main() {
          	 cin >> voto[i];
          	 
 			  Media=Media+voto[i];
+			  
 		 }
+		 
+		 Media=Media/i;
+		  cout << "La media e' " << Media << endl;
 }
 
