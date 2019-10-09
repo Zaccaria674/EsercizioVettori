@@ -5,6 +5,14 @@ using namespace std;
 int main() {
       
       int voto [ 10 ];
-	   float Media;
-
+       int i;
+	    float Media;
+         for ( i=0; i < 10; i++ ){
+         	
+         	cout << "Inserisci il numero " << i << endl;
+         	 cin >> voto[i];
+         	 
+			  Media=Media+voto[i];
+		 }
 }
+
