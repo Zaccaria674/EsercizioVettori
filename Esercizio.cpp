@@ -9,7 +9,7 @@ int main() {
 	    float Media;
          for ( i=0; i < 10; i++ ){
          	
-         	cout << "Inserisci il numero " << i << endl;
+         	cout << "Inserisci il " << i << " numero" << endl;
          	 cin >> voto[i];
          	 
 			  Media=Media+voto[i];
